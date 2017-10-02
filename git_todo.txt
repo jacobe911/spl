@@ -1,0 +1,45 @@
+
+Basic git usage.
+
+open git bash in working directory.
+
+set up:
+
+git init
+git remote add origin https://github.com/jacobe911/REPOSITORY_NAME_HERE.git
+
+check to see differences made to files and stage/commit status:
+
+git status
+
+stage files:
+
+git add -A
+
+commit files:
+
+git commit -m "Add informative message about the commit"
+
+push the updated files to github:
+
+git push origin master
+git push
+
+get the files from github with:
+
+git pull -u origin master
+git pull
+
+use fetch to get the files stored in the repository:
+
+git fetch --all
+git reset --hard origin/master
+
+give htaccess and editor config file names when using git and put back to normal when coding
+
+
+use full links:
+
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
+https://try.github.io/levels/1/challenges/1
