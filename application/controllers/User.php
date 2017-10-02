@@ -18,7 +18,7 @@ class User extends MY_Controller {
         if ($this->form_validation->run() === FALSE)
         {
             $this->load->helper('form');
-            $this->redict($redirecturl);
+            redirect($redirecturl);
         }
         else
         {
