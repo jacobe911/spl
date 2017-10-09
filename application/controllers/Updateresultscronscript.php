@@ -183,9 +183,9 @@ class Updateresultscronscript extends CI_Controller {
 
 /*
 
-Add new column to results table 'in_API' make it boolean
+Add new column to results table 'in_API' make it boolean (done)
 
-change empty table to set 'in_API' to FALSE
+change empty table to set 'in_API' to FALSE, UPDATE results SET in_API = 0;
 
 loop through each JSON object and check if the match_id is in the results table.
 
