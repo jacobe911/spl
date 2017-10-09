@@ -179,3 +179,24 @@ class Updateresultscronscript extends CI_Controller {
     }
     
 }
+
+
+/*
+
+Add new column to results table 'in_API' make it boolean
+
+change empty table to set 'in_API' to FALSE
+
+loop through each JSON object and check if the match_id is in the results table.
+
+if it is then update the scores in the results table from the JSON, set 'in_API' to true.
+
+else if match_id not found in table then insert it into the table, set 'in_API' to true.
+
+change the home/recent results view to only display rows where 'in_API' is true.
+
+create a linking table beteeen match_id and game_week, create a view in the admin dash to manually edit this.
+
+*/
+
+
